@@ -24,6 +24,18 @@ I also like the front of the stack. UI design and clean admin dashboards started
 
 </details>
 
+<h3 align="center">AI, with receipts</h3>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/prompt-demo-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/prompt-demo-light.svg">
+    <img alt="Animated demo: a prompt is typed, three sources are retrieved with scores, and the answer streams in with citations" src="assets/prompt-demo-dark.svg" width="100%">
+  </picture>
+</p>
+<p align="center">
+  <sub>A grounded answer cites what it retrieved. If the sources do not cover the question, it says so.</sub>
+</p>
+
 <details open>
 <summary><b>What I work on</b></summary>
 <br>
@@ -69,7 +81,15 @@ UI and graphic design, reading and writing, travelling to new places. I speak En
   <img alt="" src="assets/divider.svg" width="100%">
 </p>
 
-<h3 align="center">Stack</h3>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/skills-light.svg">
+    <img alt="Skills. AI and LLM: LLM integration, prompt engineering, RAG, vector search, embeddings, Gemini, Claude on Bedrock, Azure OpenAI. Backend: Python, FastAPI, Node.js, Java, Spring Boot. Data: PostgreSQL, pgvector, DynamoDB, MongoDB. Cloud: AWS, GCP, Azure, CDK. Frontend: React, TypeScript, Tailwind CSS." src="assets/skills-dark.svg" width="100%">
+  </picture>
+</p>
+
+<h3 align="center">Tools I reach for</h3>
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py,fastapi,ts,js,react,tailwind,nodejs,express,java,spring,cpp,postgres,mongodb,aws,gcp,azure,git&theme=dark&perline=9">
