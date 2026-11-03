@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="t d">
+  <title id="t">Jai Ghai</title>
+  <desc id="d">Software Engineer, AI Platforms and Cloud</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A2540"/>
+      <stop offset="1" stop-color="#1A3A5C"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="320" rx="28" fill="url(#bg)"/>
+  <rect width="1280" height="320" rx="28" fill="url(#grid)"/>
+  <rect x="64" y="72" width="56" height="6" rx="3" fill="#F9C642"/>
+  <text x="64" y="160" font-family="Geist, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="72" font-weight="700" letter-spacing="-2" fill="#FFFFFF">Jai Ghai</text>
+  <text x="64" y="206" font-family="Geist, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" font-weight="500" fill="#F9C642">Software Engineer · AI Platforms &amp; Cloud</text>
+  <text x="64" y="252" font-family="'Geist Mono', 'Cascadia Mono', Consolas, monospace" font-size="18" fill="#FFFFFF" fill-opacity="0.72">rag / llm pipelines / cloud streaming / secure apis<tspan fill="#F9C642">
+    <animate attributeName="fill-opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/>_</tspan></text>
+  <g transform="translate(1000 60)" fill="none" stroke="#F9C642" stroke-width="2" stroke-opacity="0.9">
+    <circle cx="100" cy="100" r="28"/>
+    <circle cx="20" cy="40" r="10" stroke-opacity="0.55"/>
+    <circle cx="190" cy="50" r="10" stroke-opacity="0.55"/>
+    <circle cx="170" cy="170" r="10" stroke-opacity="0.55"/>
+    <circle cx="30" cy="180" r="10" stroke-opacity="0.55"/>
+    <path d="M28 46L76 84M182 58L124 86M164 160L120 122M38 172L80 124" stroke-opacity="0.4"/>
+  </g>
+</svg>
