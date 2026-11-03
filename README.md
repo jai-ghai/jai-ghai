@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
-  <img alt="Jai Ghai, Software Engineer for AI platforms and cloud" src="assets/banner-dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg?v=3">
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg?v=3">
+  <img alt="Jai Ghai, Software Engineer for AI platforms and cloud" src="assets/banner-dark.svg?v=3" width="100%">
 </picture>
 
 <p align="center">
@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <img alt="" src="assets/divider.svg" width="100%">
+  <img alt="" src="assets/divider.svg?v=3" width="100%">
 </p>
 
 <details open>
@@ -28,9 +28,9 @@ I also like the front of the stack. UI design and clean admin dashboards started
 
 <p>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/prompt-demo-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/prompt-demo-light.svg">
-    <img alt="Animated demo: a prompt is typed, three sources are retrieved with scores, and the answer streams in with citations" src="assets/prompt-demo-dark.svg" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/prompt-demo-dark.svg?v=3">
+    <source media="(prefers-color-scheme: light)" srcset="assets/prompt-demo-light.svg?v=3">
+    <img alt="Animated demo: a prompt is typed, three sources are retrieved with scores, and the answer streams in with citations" src="assets/prompt-demo-dark.svg?v=3" width="100%">
   </picture>
 </p>
 <sub>A grounded answer cites what it retrieved. If the sources do not cover the question, it says so.</sub>
@@ -77,14 +77,14 @@ UI and graphic design, reading and writing, travelling to new places. I speak En
 </details>
 
 <p align="center">
-  <img alt="" src="assets/divider.svg" width="100%">
+  <img alt="" src="assets/divider.svg?v=3" width="100%">
 </p>
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/skills-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/skills-light.svg">
-    <img alt="Skills. AI and LLM: LLM integration, prompt engineering, RAG, vector search, embeddings, Gemini, Claude on Bedrock, Azure OpenAI. Backend: Python, FastAPI, Node.js, Java, Spring Boot. Data: PostgreSQL, pgvector, DynamoDB, MongoDB. Cloud: AWS, GCP, Azure, CDK. Frontend: React, TypeScript, Tailwind CSS." src="assets/skills-dark.svg" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills-dark.svg?v=3">
+    <source media="(prefers-color-scheme: light)" srcset="assets/skills-light.svg?v=3">
+    <img alt="Skills. AI and LLM: LLM integration, prompt engineering, RAG, vector search, embeddings, Gemini, Claude on Bedrock, Azure OpenAI. Backend: Python, FastAPI, Node.js, Java, Spring Boot. Data: PostgreSQL, pgvector, DynamoDB, MongoDB. Cloud: AWS, GCP, Azure, CDK. Frontend: React, TypeScript, Tailwind CSS." src="assets/skills-dark.svg?v=3" width="100%">
   </picture>
 </p>
 

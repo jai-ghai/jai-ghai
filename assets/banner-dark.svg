@@ -1,10 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-labelledby="t d">
   <title id="t">Jai Ghai</title>
-  <desc id="d">Software Engineer, AI Platforms and Cloud. Animated lines cycle through: RAG search, LLM pipelines, secure APIs.</desc>
+  <desc id="d">Software Engineer, AI Platforms and Cloud. Focus areas: RAG search, LLM pipelines, secure APIs.</desc>
   <style>
-.tx{font-family:'Geist Mono', 'Cascadia Mono', Consolas, monospace;font-size:20px}
-@keyframes ty0{0%,2%{opacity:0;transform:translateX(-10px)}5%,30%{opacity:1;transform:translateX(0)}33%,100%{opacity:0;transform:translateX(0)}}@keyframes ty1{0%,34%{opacity:0;transform:translateX(-10px)}37%,63%{opacity:1;transform:translateX(0)}66%,100%{opacity:0;transform:translateX(0)}}@keyframes ty2{0%,67%{opacity:0;transform:translateX(-10px)}70%,96%{opacity:1;transform:translateX(0)}99%,100%{opacity:0;transform:translateX(0)}}
-.l1,.l2{opacity:0}
+.tx{font-family:'Geist Mono', 'Cascadia Mono', Consolas, monospace;font-size:18px}
+@keyframes ty0{0%,5%{opacity:0;transform:translateX(-10px)}8%,94%{opacity:1;transform:translateX(0)}97%,100%{opacity:0;transform:translateX(0)}}@keyframes ty1{0%,22%{opacity:0;transform:translateX(-10px)}25%,94%{opacity:1;transform:translateX(0)}97%,100%{opacity:0;transform:translateX(0)}}@keyframes ty2{0%,39%{opacity:0;transform:translateX(-10px)}42%,94%{opacity:1;transform:translateX(0)}97%,100%{opacity:0;transform:translateX(0)}}
 .l0{animation:ty0 15s cubic-bezier(0.16, 1, 0.3, 1) infinite}.l1{animation:ty1 15s cubic-bezier(0.16, 1, 0.3, 1) infinite}.l2{animation:ty2 15s cubic-bezier(0.16, 1, 0.3, 1) infinite}
 @keyframes bar{0%,100%{transform:scaleX(1)}50%{transform:scaleX(2.1)}}
 .bar{transform-box:fill-box;transform-origin:left center;animation:bar 4s cubic-bezier(0.16, 1, 0.3, 1) infinite}
@@ -21,7 +20,7 @@
   <rect class="bar" x="64" y="64" width="56" height="6" rx="3" fill="#F9C642"/>
   <text x="64" y="150" font-family="Geist, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="76" font-weight="700" letter-spacing="-2" fill="#FFFFFF">Jai Ghai</text>
   <text x="64" y="200" font-family="Geist, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" font-weight="500" fill="#F9C642">Software Engineer · AI Platforms &amp; Cloud</text>
-  <text class="tx l0" x="64" y="282" fill="#FFFFFF" fill-opacity="0.68">&gt; rag search that answers only from what it retrieved</text><text class="tx l1 alt" x="64" y="282" fill="#FFFFFF" fill-opacity="0.68">&gt; llm pipelines: transcript in, structured report out</text><text class="tx l2 alt" x="64" y="282" fill="#FFFFFF" fill-opacity="0.68">&gt; secure apis with rbac and tenant isolation</text>
+  <text class="tx l0" x="64" y="246" fill="#FFFFFF" fill-opacity="0.68">&gt; rag search that answers only from what it retrieved</text><text class="tx l1" x="64" y="274" fill="#FFFFFF" fill-opacity="0.68">&gt; llm pipelines: transcript in, structured report out</text><text class="tx l2" x="64" y="302" fill="#FFFFFF" fill-opacity="0.68">&gt; secure apis with rbac and tenant isolation</text>
   <g transform="translate(960 50)" fill="none" stroke="#F9C642">
     <g stroke-width="1.5" stroke-opacity="0.5">
       <path class="fw" d="M70 110L135 150"/><path class="fw" d="M210 70L150 138"/><path class="fw" d="M215 235L160 172"/><path class="fw" d="M85 240L128 178"/>
