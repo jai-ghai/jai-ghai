@@ -1,6 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="24" viewBox="0 0 1280 24" role="presentation" aria-hidden="true">
-  <line x1="0" y1="12" x2="1280" y2="12" stroke="#8A94A0" stroke-opacity="0.35" stroke-width="1"/>
-  <circle cy="12" r="4" fill="#F9C642">
-    <animate attributeName="cx" values="0;1280" dur="5s" repeatCount="indefinite"/>
-  </circle>
+  <style>@keyframes run{from{transform:translateX(0)}to{transform:translateX(1280px)}}.dot{animation:run 5s linear infinite}@media (prefers-reduced-motion: reduce){.dot{animation:none}}</style>
+  <line x1="0" y1="12" x2="1280" y2="12" stroke="#8FA0B5" stroke-opacity="0.45"/>
+  <circle class="dot" cx="0" cy="12" r="4" fill="#F9C642"/>
 </svg>

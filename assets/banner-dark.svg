@@ -1,58 +1,32 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-labelledby="t d">
   <title id="t">Jai Ghai</title>
   <desc id="d">Software Engineer, AI Platforms and Cloud. Animated lines cycle through: RAG search, LLM pipelines, secure APIs.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0A2540"/>
-      <stop offset="1" stop-color="#1A3A5C"/>
-    </linearGradient>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" fill="none" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="1"/>
-    </pattern>
-    <clipPath id="c1"><rect x="64" y="256" width="0" height="40"><animate attributeName="width" dur="15s" repeatCount="indefinite" keyTimes="0;0.02;0.12;0.30;0.32;1" values="0;0;760;760;0;0"/></rect></clipPath>
-    <clipPath id="c2"><rect x="64" y="256" width="0" height="40"><animate attributeName="width" dur="15s" repeatCount="indefinite" keyTimes="0;0.34;0.45;0.63;0.65;1" values="0;0;760;760;0;0"/></rect></clipPath>
-    <clipPath id="c3"><rect x="64" y="256" width="0" height="40"><animate attributeName="width" dur="15s" repeatCount="indefinite" keyTimes="0;0.67;0.78;0.96;0.98;1" values="0;0;760;760;0;0"/></rect></clipPath>
-  </defs>
-
+  <style>
+.tx{font-family:'Geist Mono', 'Cascadia Mono', Consolas, monospace;font-size:20px}
+@keyframes ty0{0%,2%{clip-path:inset(-6px 100% -6px -2px);animation-timing-function:steps(52,end)}12%,94%{clip-path:inset(-6px -2px -6px -2px)}97%,100%{clip-path:inset(-6px 100% -6px -2px)}}@keyframes ty1{0%,34%{clip-path:inset(-6px 100% -6px -2px);animation-timing-function:steps(52,end)}45%,94%{clip-path:inset(-6px -2px -6px -2px)}97%,100%{clip-path:inset(-6px 100% -6px -2px)}}@keyframes ty2{0%,67%{clip-path:inset(-6px 100% -6px -2px);animation-timing-function:steps(43,end)}78%,94%{clip-path:inset(-6px -2px -6px -2px)}97%,100%{clip-path:inset(-6px 100% -6px -2px)}}
+.l0{animation:ty0 15s linear infinite}.l1{animation:ty1 15s linear infinite}.l2{animation:ty2 15s linear infinite}
+@keyframes bar{0%,100%{transform:scaleX(1)}50%{transform:scaleX(2.1)}}
+.bar{transform-box:fill-box;transform-origin:left center;animation:bar 4s cubic-bezier(0.16, 1, 0.3, 1) infinite}
+@keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(8px)}}
+.f1{animation:fl 4s ease-in-out infinite}.f2{animation:fl 5s ease-in-out infinite reverse}.f3{animation:fl 4.5s ease-in-out infinite}.f4{animation:fl 3.5s ease-in-out infinite reverse}
+@keyframes pu{0%,100%{transform:scale(1)}50%{transform:scale(1.2)}}
+.pu{transform-box:fill-box;transform-origin:center;animation:pu 3s ease-in-out infinite}
+@keyframes fw{to{stroke-dashoffset:-28}}
+.fw{stroke-dasharray:6 8;animation:fw 1.6s linear infinite}
+@media (prefers-reduced-motion: reduce){*{animation:none !important}.alt{display:none}}</style>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0A2540"/><stop offset="1" stop-color="#1A3A5C"/></linearGradient><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#FFFFFF" stroke-opacity="0.05"/></pattern></defs>
   <rect width="1280" height="340" rx="28" fill="url(#bg)"/>
   <rect width="1280" height="340" rx="28" fill="url(#grid)"/>
-
-  <rect x="64" y="64" width="56" height="6" rx="3" fill="#F9C642">
-    <animate attributeName="width" values="56;120;56" dur="4s" repeatCount="indefinite"/>
-  </rect>
+  <rect class="bar" x="64" y="64" width="56" height="6" rx="3" fill="#F9C642"/>
   <text x="64" y="150" font-family="Geist, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="76" font-weight="700" letter-spacing="-2" fill="#FFFFFF">Jai Ghai</text>
   <text x="64" y="200" font-family="Geist, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" font-weight="500" fill="#F9C642">Software Engineer · AI Platforms &amp; Cloud</text>
-
-  <g font-family="'Geist Mono', 'Cascadia Mono', Consolas, monospace" font-size="20" fill="#FFFFFF" fill-opacity="0.8">
-    <text x="64" y="282" clip-path="url(#c1)">&gt; rag search that answers only from what it retrieved</text>
-    <text x="64" y="282" clip-path="url(#c2)">&gt; llm pipelines: transcript in, structured report out</text>
-    <text x="64" y="282" clip-path="url(#c3)">&gt; secure apis with rbac and tenant isolation</text>
-  </g>
-
+  <text class="tx l0" x="64" y="282" fill="#FFFFFF" fill-opacity="0.68">&gt; rag search that answers only from what it retrieved</text><text class="tx l1 alt" x="64" y="282" fill="#FFFFFF" fill-opacity="0.68">&gt; llm pipelines: transcript in, structured report out</text><text class="tx l2 alt" x="64" y="282" fill="#FFFFFF" fill-opacity="0.68">&gt; secure apis with rbac and tenant isolation</text>
   <g transform="translate(960 50)" fill="none" stroke="#F9C642">
-    <g stroke-width="1.5" stroke-dasharray="6 8" stroke-opacity="0.5">
-      <path d="M70 110L135 150">
-        <animate attributeName="stroke-dashoffset" from="28" to="0" dur="1.6s" repeatCount="indefinite"/>
-      </path>
-      <path d="M210 70L150 138">
-        <animate attributeName="stroke-dashoffset" from="28" to="0" dur="1.3s" repeatCount="indefinite"/>
-      </path>
-      <path d="M215 235L160 172">
-        <animate attributeName="stroke-dashoffset" from="28" to="0" dur="1.9s" repeatCount="indefinite"/>
-      </path>
-      <path d="M85 240L128 178">
-        <animate attributeName="stroke-dashoffset" from="28" to="0" dur="1.5s" repeatCount="indefinite"/>
-      </path>
+    <g stroke-width="1.5" stroke-opacity="0.5">
+      <path class="fw" d="M70 110L135 150"/><path class="fw" d="M210 70L150 138"/><path class="fw" d="M215 235L160 172"/><path class="fw" d="M85 240L128 178"/>
     </g>
-    <circle cx="145" cy="160" r="30" stroke-width="2">
-      <animate attributeName="r" values="30;36;30" dur="3s" repeatCount="indefinite"/>
-    </circle>
+    <circle class="pu" cx="145" cy="160" r="30" stroke-width="2"/>
     <circle cx="145" cy="160" r="12" fill="#F9C642" stroke="none"/>
-    <g stroke-width="2" stroke-opacity="0.7">
-      <circle cx="62" cy="100" r="10"><animate attributeName="cy" values="100;108;100" dur="4s" repeatCount="indefinite"/></circle>
-      <circle cx="218" cy="62" r="10"><animate attributeName="cy" values="62;70;62" dur="5s" repeatCount="indefinite"/></circle>
-      <circle cx="222" cy="244" r="10"><animate attributeName="cy" values="244;236;244" dur="4.5s" repeatCount="indefinite"/></circle>
-      <circle cx="78" cy="250" r="10"><animate attributeName="cy" values="250;242;250" dur="3.5s" repeatCount="indefinite"/></circle>
-    </g>
+    <g stroke-width="2" stroke-opacity="0.7"><circle class="f1" cx="62" cy="100" r="10"/><circle class="f2" cx="218" cy="62" r="10"/><circle class="f3" cx="222" cy="244" r="10"/><circle class="f4" cx="78" cy="250" r="10"/></g>
   </g>
 </svg>

@@ -24,17 +24,16 @@ I also like the front of the stack. UI design and clean admin dashboards started
 
 </details>
 
-<h3 align="center">AI, with receipts</h3>
-<p align="center">
+### AI, with receipts
+
+<p>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/prompt-demo-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="assets/prompt-demo-light.svg">
     <img alt="Animated demo: a prompt is typed, three sources are retrieved with scores, and the answer streams in with citations" src="assets/prompt-demo-dark.svg" width="100%">
   </picture>
 </p>
-<p align="center">
-  <sub>A grounded answer cites what it retrieved. If the sources do not cover the question, it says so.</sub>
-</p>
+<sub>A grounded answer cites what it retrieved. If the sources do not cover the question, it says so.</sub>
 
 <details open>
 <summary><b>What I work on</b></summary>
@@ -89,19 +88,8 @@ UI and graphic design, reading and writing, travelling to new places. I speak En
   </picture>
 </p>
 
-<h3 align="center">Tools I reach for</h3>
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py,fastapi,ts,js,react,tailwind,nodejs,express,java,spring,cpp,postgres,mongodb,aws,gcp,azure,git&theme=dark&perline=9">
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=py,fastapi,ts,js,react,tailwind,nodejs,express,java,spring,cpp,postgres,mongodb,aws,gcp,azure,git&theme=light&perline=9">
-    <img alt="Python, FastAPI, TypeScript, JavaScript, React, Tailwind, Node.js, Express, Java, Spring Boot, C++, PostgreSQL, MongoDB, AWS, GCP, Azure, Git" src="https://skillicons.dev/icons?i=py,fastapi,ts,js,react,tailwind,nodejs,express,java,spring,cpp,postgres,mongodb,aws,gcp,azure,git&perline=9">
-  </picture>
-</p>
-<p align="center">
-  <sub>Also: pgvector, DynamoDB, AWS CDK, CI/CD, prompt engineering, JSON-schema output parsing.</sub>
-</p>
+### GitHub activity
 
-<h3 align="center">GitHub activity</h3>
 <p align="center">
   <img alt="Jai Ghai GitHub stats" width="49%" src="https://github-readme-stats.vercel.app/api?username=jai-ghai&show_icons=true&hide_border=false&border_color=1A3A5C&bg_color=0A2540&title_color=F9C642&text_color=FFFFFF&icon_color=F9C642&border_radius=12">
   <img alt="Jai Ghai top languages" width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jai-ghai&layout=compact&border_color=1A3A5C&bg_color=0A2540&title_color=F9C642&text_color=FFFFFF&border_radius=12">
@@ -115,7 +103,6 @@ UI and graphic design, reading and writing, travelling to new places. I speak En
   </picture>
 </p>
 
-<h3 align="center">Get in touch</h3>
-<p align="center">
-  The fastest way is <a href="https://in.linkedin.com/in/jai-ghai-3b4592162">LinkedIn</a>. I also post on <a href="https://x.com/jaighai8">X</a>.
-</p>
+### Get in touch
+
+The fastest way is [LinkedIn](https://in.linkedin.com/in/jai-ghai-3b4592162). I also post on [X](https://x.com/jaighai8).
