@@ -90,9 +90,12 @@ UI and graphic design, reading and writing, travelling to new places. I speak En
 
 ### GitHub activity
 
-<p align="center">
-  <img alt="Jai Ghai GitHub stats" width="49%" src="https://github-readme-stats.vercel.app/api?username=jai-ghai&show_icons=true&hide_border=false&border_color=1A3A5C&bg_color=0A2540&title_color=F9C642&text_color=FFFFFF&icon_color=F9C642&border_radius=12">
-  <img alt="Jai Ghai top languages" width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jai-ghai&layout=compact&border_color=1A3A5C&bg_color=0A2540&title_color=F9C642&text_color=FFFFFF&border_radius=12">
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jai-ghai/jai-ghai/output/stats-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jai-ghai/jai-ghai/output/stats-light.svg">
+    <img alt="GitHub activity: public repositories, stars, followers, contributions in the last year, and top languages by repository" src="https://raw.githubusercontent.com/jai-ghai/jai-ghai/output/stats-dark.svg" width="100%">
+  </picture>
 </p>
 
 <p align="center">
