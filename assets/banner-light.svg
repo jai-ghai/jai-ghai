@@ -3,8 +3,9 @@
   <desc id="d">Software Engineer, AI Platforms and Cloud. Animated lines cycle through: RAG search, LLM pipelines, secure APIs.</desc>
   <style>
 .tx{font-family:'Geist Mono', 'Cascadia Mono', Consolas, monospace;font-size:20px}
-@keyframes ty0{0%,2%{clip-path:inset(-6px 100% -6px -2px);animation-timing-function:steps(52,end)}12%,94%{clip-path:inset(-6px -2px -6px -2px)}97%,100%{clip-path:inset(-6px 100% -6px -2px)}}@keyframes ty1{0%,34%{clip-path:inset(-6px 100% -6px -2px);animation-timing-function:steps(52,end)}45%,94%{clip-path:inset(-6px -2px -6px -2px)}97%,100%{clip-path:inset(-6px 100% -6px -2px)}}@keyframes ty2{0%,67%{clip-path:inset(-6px 100% -6px -2px);animation-timing-function:steps(43,end)}78%,94%{clip-path:inset(-6px -2px -6px -2px)}97%,100%{clip-path:inset(-6px 100% -6px -2px)}}
-.l0{animation:ty0 15s linear infinite}.l1{animation:ty1 15s linear infinite}.l2{animation:ty2 15s linear infinite}
+@keyframes ty0{0%,2%{opacity:0;transform:translateX(-10px)}5%,30%{opacity:1;transform:translateX(0)}33%,100%{opacity:0;transform:translateX(0)}}@keyframes ty1{0%,34%{opacity:0;transform:translateX(-10px)}37%,63%{opacity:1;transform:translateX(0)}66%,100%{opacity:0;transform:translateX(0)}}@keyframes ty2{0%,67%{opacity:0;transform:translateX(-10px)}70%,96%{opacity:1;transform:translateX(0)}99%,100%{opacity:0;transform:translateX(0)}}
+.l1,.l2{opacity:0}
+.l0{animation:ty0 15s cubic-bezier(0.16, 1, 0.3, 1) infinite}.l1{animation:ty1 15s cubic-bezier(0.16, 1, 0.3, 1) infinite}.l2{animation:ty2 15s cubic-bezier(0.16, 1, 0.3, 1) infinite}
 @keyframes bar{0%,100%{transform:scaleX(1)}50%{transform:scaleX(2.1)}}
 .bar{transform-box:fill-box;transform-origin:left center;animation:bar 4s cubic-bezier(0.16, 1, 0.3, 1) infinite}
 @keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(8px)}}

@@ -3,8 +3,8 @@
   <desc id="d">A prompt is typed, three sources are retrieved with relevance scores, then an answer streams in with citations to those sources.</desc>
   <style>
 .m{font-family:'Geist Mono', 'Cascadia Mono', Consolas, monospace}
-@keyframes tl0{0%,3%{clip-path:inset(-6px 100% -6px -2px);animation-timing-function:steps(75,end)}17%,94%{clip-path:inset(-6px -2px -6px -2px)}97%,100%{clip-path:inset(-6px 100% -6px -2px)}}@keyframes tl1{0%,40%{clip-path:inset(-6px 100% -6px -2px);animation-timing-function:steps(67,end)}52%,94%{clip-path:inset(-6px -2px -6px -2px)}97%,100%{clip-path:inset(-6px 100% -6px -2px)}}@keyframes tl2{0%,53%{clip-path:inset(-6px 100% -6px -2px);animation-timing-function:steps(71,end)}65%,94%{clip-path:inset(-6px -2px -6px -2px)}97%,100%{clip-path:inset(-6px 100% -6px -2px)}}
-.tl0{animation:tl0 18s linear infinite}.tl1{animation:tl1 18s linear infinite}.tl2{animation:tl2 18s linear infinite}
+@keyframes tl0{0%,3%{opacity:0;transform:translateX(-10px)}6%,94%{opacity:1;transform:translateX(0)}97%,100%{opacity:0;transform:translateX(0)}}@keyframes tl1{0%,40%{opacity:0;transform:translateX(-10px)}43%,94%{opacity:1;transform:translateX(0)}97%,100%{opacity:0;transform:translateX(0)}}@keyframes tl2{0%,53%{opacity:0;transform:translateX(-10px)}56%,94%{opacity:1;transform:translateX(0)}97%,100%{opacity:0;transform:translateX(0)}}
+.tl0{animation:tl0 18s cubic-bezier(0.16, 1, 0.3, 1) infinite}.tl1{animation:tl1 18s cubic-bezier(0.16, 1, 0.3, 1) infinite}.tl2{animation:tl2 18s cubic-bezier(0.16, 1, 0.3, 1) infinite}
 @keyframes ch0{0%,21%{opacity:0}23%,94%{opacity:1}97%,100%{opacity:0}}@keyframes ch1{0%,25%{opacity:0}27%,94%{opacity:1}97%,100%{opacity:0}}@keyframes ch2{0%,29%{opacity:0}31%,94%{opacity:1}97%,100%{opacity:0}}
 .ch0{animation:ch0 18s linear infinite}.ch1{animation:ch1 18s linear infinite}.ch2{animation:ch2 18s linear infinite}
 @keyframes ci0{0%,68%{opacity:0}70%,94%{opacity:1}97%,100%{opacity:0}}@keyframes ci1{0%,71%{opacity:0}73%,94%{opacity:1}97%,100%{opacity:0}}@keyframes ci2{0%,74%{opacity:0}76%,94%{opacity:1}97%,100%{opacity:0}}
